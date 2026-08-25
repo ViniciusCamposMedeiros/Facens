@@ -2,7 +2,7 @@
 
 int main(){
     int vector[5], *p, i;
-    p=vetor;
+    p=vector;
 
         for(i=0;i<5;i++){
             printf("Valor[%i]= ", i);
