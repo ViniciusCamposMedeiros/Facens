@@ -8,8 +8,8 @@ void mostra(int *p, int tam);
 int main(){
     int grandeza = tamanho();
     int *vetor= (int *)malloc(grandeza*sizeof(int)); // sizeof pega o tamanho em bytes que a variável precisa, malloc separa aquele 
-                                                     // espaço de memória, o int * é para definir que esse espaço de é para int.
-                                                     
+                                                     // espaço de memória, o int * é para definir que esse espaço é para int.
+
     recebe(vetor, grandeza); // como não tem index recebe o endereço
     mostra(vetor, grandeza);
     system("pause");
